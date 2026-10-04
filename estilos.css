@@ -2222,3 +2222,15 @@ button {
         width: 100%;
     }
 }
+.footer-politica {
+    display: inline-block;
+    margin-top: 10px;
+    color: inherit;
+    text-decoration: underline;
+    font-size: 13px;
+    transition: opacity .2s ease;
+}
+
+.footer-politica:hover {
+    opacity: .7;
+} 
