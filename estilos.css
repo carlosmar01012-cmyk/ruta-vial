@@ -2233,4 +2233,147 @@ button {
 
 .footer-politica:hover {
     opacity: .7;
-} 
+}
+/* =========================================================
+   POLÍTICA DE TRATAMIENTO DE DATOS
+========================================================= */
+
+.politica-section {
+    position: relative;
+    padding: 105px 0;
+    background:
+        radial-gradient(circle at 90% 10%, rgba(25, 182, 255, 0.08), transparent 25%),
+        #f6f9fc;
+    border-top: 1px solid #e3ebf3;
+}
+
+.politica-container {
+    max-width: 1000px;
+}
+
+.politica-header {
+    max-width: 760px;
+    margin-bottom: 45px;
+}
+
+.politica-header .section-tag {
+    margin-bottom: 14px;
+}
+
+.politica-header h2 {
+    margin-top: 10px;
+    color: var(--navy);
+    font-family: "Manrope", sans-serif;
+    font-size: clamp(32px, 4vw, 45px);
+    line-height: 1.15;
+    letter-spacing: -1.7px;
+}
+
+.politica-header > p {
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+.politica-content {
+    padding: 45px 50px;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    background: #ffffff;
+    box-shadow: 0 20px 60px rgba(8, 35, 65, 0.07);
+}
+
+.politica-content h3 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    color: var(--navy);
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    line-height: 1.35;
+}
+
+.politica-content h3:first-child {
+    margin-top: 0;
+}
+
+.politica-content > p {
+    margin-bottom: 14px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.politica-content strong {
+    color: var(--navy);
+}
+
+.politica-datos {
+    margin: 22px 0 32px;
+    padding: 24px 27px;
+    border-left: 4px solid var(--blue);
+    border-radius: 0 16px 16px 0;
+    background: var(--light-blue);
+}
+
+.politica-datos p {
+    margin: 5px 0;
+    color: #526a82;
+    font-size: 13px;
+}
+
+.politica-datos strong {
+    color: var(--navy);
+}
+
+
+/* ENLACE DE POLÍTICA EN EL FOOTER */
+
+.footer-politica {
+    color: #879cb0;
+    font-size: 10px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: 0.2s ease;
+}
+
+.footer-politica:hover {
+    color: #ffffff;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 650px) {
+
+    .politica-section {
+        padding: 75px 0;
+    }
+
+    .politica-header {
+        margin-bottom: 30px;
+    }
+
+    .politica-content {
+        padding: 30px 22px;
+        border-radius: 18px;
+    }
+
+    .politica-content h3 {
+        margin-top: 28px;
+        font-size: 17px;
+    }
+
+    .politica-content > p {
+        font-size: 13px;
+    }
+
+    .politica-datos {
+        padding: 20px;
+    }
+
+    .footer-politica {
+        display: inline-block;
+        margin-top: 5px;
+    }
+}
