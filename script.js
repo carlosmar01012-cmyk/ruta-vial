@@ -56,7 +56,7 @@ faqItems.forEach(item => {
    CONTENIDO DE LECCIONES
 ========================= */
 
-const lessons = {
+fconst lessons = {
 
     multas: {
         title: "Multas y comparendos",
@@ -153,29 +153,31 @@ const lessons = {
     },
 
 
-    sistemas: {
-        title: "SIMIT y RUNT",
-        body: `
-            <p>
-                <strong>SIMIT y RUNT son sistemas diferentes.</strong>
-            </p>
+     prevencion: {
+    title: "Prevención en la vía",
+    body: `
+        <p>
+            La prevención vial consiste en adoptar comportamientos
+            que ayuden a reducir riesgos antes y durante cada recorrido.
+        </p>
 
-            <p>
-                El SIMIT está relacionado con información sobre multas
-                y sanciones por infracciones de tránsito.
-            </p>
+        <p>
+            Revisar el estado del vehículo, respetar las señales,
+            mantener una distancia prudente y evitar distracciones
+            son acciones importantes para una movilidad más segura.
+        </p>
 
-            <p>
-                El RUNT integra diferentes registros e información
-                relacionada con el sector tránsito y transporte.
-            </p>
+        <p>
+            También es importante adaptar la conducción a las
+            condiciones de la vía, el clima y el entorno.
+        </p>
 
-            <p>
-                Reconocer esta diferencia ayuda a saber cuál plataforma
-                oficial consultar según la información que se necesita.
-            </p>
-        `
-    },
+        <p>
+            <strong>Prevenir riesgos comienza con decisiones responsables
+            antes de iniciar cada recorrido.</strong>
+        </p>
+    `
+},
 
 
     conduccion: {
